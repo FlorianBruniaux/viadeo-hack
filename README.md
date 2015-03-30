@@ -3,5 +3,4 @@ Extraction des identifiants des visiteurs viadeo. Pas besoin de compte premium !
 
 Ce petit script js doit être joué dans la console sur votre page viadeo listant l'ensemble des visites (http://www.viadeo.com/monreseau/consultation/)
 
-Pour l'instant il faut jouer le script sur chaque page (http://www.viadeo.com/monreseau/consultation/?pageNumber=2, http://www.viadeo.com/monreseau/consultation/?pageNumber=3 etc etc)
- . Je vais voir pour rajouter une boucle qui passe sur chaque page automatiquement.
+Il parcourt toutes les pages de visites, ajoute tout à la suite de la page courante puis cherche les profils avec un id.  Il affiche ensuite l'url de chaque profil identifié et enfin le nombre total de profils identifiés
